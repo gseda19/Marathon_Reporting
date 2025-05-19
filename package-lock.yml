@@ -1,0 +1,5 @@
+packages:
+  - git: https://github.com/gseda19/Marathon_Staging.git
+    name: marathon_staging
+    revision: 9122af5bd2501b849de818bf46fafccb42ae19b4
+sha1_hash: 1de084147825f31d2b03a6239c175837775d8c69
