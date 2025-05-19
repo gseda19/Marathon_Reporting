@@ -1,0 +1,9 @@
+snapshots:
+  - name: runner_results_snapshot
+    config:
+      target_schema: snapshots
+      database: analytics
+      unique_key: runner_id || '-' || event
+      strategy: timestamp
+      updated_at: updated_at  # Make sure this column exists in the model
+      dbt_valid_to_current: "to_date('9999-12-31')"
