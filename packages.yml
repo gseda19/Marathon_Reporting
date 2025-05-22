@@ -1,3 +1,0 @@
-packages:
-  - git: "https://github.com/gseda19/Marathon_Staging.git"
-    revision: main
